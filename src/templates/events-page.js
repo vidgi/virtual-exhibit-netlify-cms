@@ -134,7 +134,7 @@ const EventsPage = ({ data }) => {
 
   return (
     <Layout>
-      <EventPageTemplate
+      <EventsPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
