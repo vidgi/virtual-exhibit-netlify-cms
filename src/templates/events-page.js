@@ -8,7 +8,7 @@ import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 // eslint-disable-next-line
-export const EventPageTemplate = ({
+export const EventsPageTemplate = ({
   image,
   title,
   heading,
@@ -149,7 +149,7 @@ const EventPage = ({ data }) => {
   );
 };
 
-EventPage.propTypes = {
+EventsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -157,7 +157,7 @@ EventPage.propTypes = {
   }),
 };
 
-export default EventPage;
+export default EventsPage;
 
 export const eventsPageQuery = graphql`
   query EventPage($id: String!) {
