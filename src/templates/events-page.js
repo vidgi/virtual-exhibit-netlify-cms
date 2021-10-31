@@ -105,7 +105,7 @@ export const EventsPageTemplate = ({
   </div>
 );
 
-EventPageTemplate.propTypes = {
+EventsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -129,7 +129,7 @@ EventPageTemplate.propTypes = {
   }),
 };
 
-const EventPage = ({ data }) => {
+const EventsPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
@@ -160,7 +160,7 @@ EventsPage.propTypes = {
 export default EventsPage;
 
 export const eventsPageQuery = graphql`
-  query EventPage($id: String!) {
+  query EventsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
