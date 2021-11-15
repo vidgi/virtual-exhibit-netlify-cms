@@ -35,15 +35,19 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            {/* <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-            </Link>
+            </Link> */}
+
+            <Link className="navbar-item" to="/">
+              silicon imagination
+              </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -62,16 +66,18 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
+            
             <div className="navbar-start has-text-centered">
+            <Link className="navbar-item" to="/exhibition">
+              exhibition
+              </Link>
               <Link className="navbar-item" to="/about">
                 about
               </Link>
               <Link className="navbar-item" to="/events">
                 events
               </Link>
-              <Link className="navbar-item" to="/works">
-                works
-              </Link>
+
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -80,9 +86,9 @@ const Navbar = class extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
+                {/* <span className="icon">
                   <img src={github} alt="Github" />
-                </span>
+                </span> */}
               </a>
             </div>
           </div>
