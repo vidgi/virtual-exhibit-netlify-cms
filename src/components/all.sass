@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url(http://fonts.googleapis.com/css?family=Epilogue:400italic,700italic,400,700)
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -10,9 +11,15 @@ $primary-invert: $kaldi-red-invert
 $body-color: #fff
 $black: #333
 
+$body-font: 'Epilogue', sans-serif
+
+html
+  background-color: black !important
 
 body 
   background-color: black
+  font-family: $body-font !important
+  font-weight: normal
 
 h1, h2, h3
   color: white !important
@@ -23,6 +30,7 @@ h1, h2, h3
 .navbar
   background-color: black !important
   color: white !important
+  
 
 
 .container navbar-brand
@@ -86,18 +94,27 @@ h1, h2, h3
 .margin-top-0
   margin-top: 0 !important
 
+
+.navbar-item
+  color: white !important
+ 
+
 .navbar-item .icon
-  color: $primary
+  color: white !important
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
   height: 1.5rem
-  fill: currentColor
+  fill: white
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
+
+.navbar-burger
+  color: white !important
+
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -145,6 +162,8 @@ $menu-label-color: $white-ter
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
+  .navbar-menu
+    background-color: black !important
 
 +mobile
   .blog-list-item header
@@ -153,3 +172,5 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+  .navbar-menu
+    background-color: black !important

@@ -1,12 +1,74 @@
-import React from "react";
+import React from "react"
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
+
+import { Canvas } from "react-three-fiber"
+// import { useLoader } from '@react-three/fiber'
+// import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
+import { Suspense } from "react";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+import Scene from "../components/Scene";
+
+// import Features from "../components/Features";
+// import BlogRoll from "../components/BlogRoll";
+// import { useGLTF, PerspectiveCamera } from '@react-three/drei'
+
+
+// const Model = () => {
+//   const gltf = useLoader(GLTFLoader, "/scene.gltf")
+//   return (
+//       <>
+//           <primitive  position={[0, 0, 0]} object={gltf.scene} wireframe= {true} scale={5} />
+//       </>
+//   );
+// };
+
+// const SpaceShip = () => {
+//   const [model, setModel] = useState()
+
+//   useEffect(() => {
+//     new GLTFLoader().load("/scene.gltf", setModel)
+//   })
+
+//   return model ? <primitive object={model.scene} wireframe= {true} scale={2}
+//   /> : null
+// }
+
+
 
 // eslint-disable-next-line
+
+// const Box = props => {
+//   // This reference will give us direct access to the mesh so we can animate it
+//   const mesh = useRef()
+
+//   // Set up state for the hovered and active state
+//   const [hovered, setHover] = useState(false)
+//   const [active, setActive] = useState(false)
+
+//   // Rotate mesh every frame, this is outside of React without overhead
+//   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01))
+
+//   return (
+//     <mesh
+//       {...props}
+//       ref={mesh}
+//       scale={active ? [2, 2, 2] : [1, 1, 1]}
+//       onClick={e => setActive(!active)}
+//       onPointerOver={e => setHover(true)}
+//       onPointerOut={e => setHover(false)}
+//     >
+//       <sphereGeometry attach="geometry" args={[1, 16, 16]} />
+//       <meshStandardMaterial
+//         attach="material"
+//         color={hovered ? "hotpink" : "orange"}
+//         wireframe={hovered? false: true}
+//       />
+//     </mesh>
+//   )
+// }
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -17,7 +79,19 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
+  <div className="full-width-image margin-top-0">
+   <Canvas>
+    <ambientLight />
+    <pointLight position={[10, 10, 10]} />
+    <Suspense fallback={null}>
+              <Scene position={[0, 0, 0]}/>
+              
+                  {/* <Box position={[0, 0, 0]} /> */}
+
+           </Suspense>
+      </Canvas>
+      </div>
+      {/* <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -27,6 +101,7 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
+
       <div
         style={{
           display: "flex",
@@ -64,7 +139,7 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
-    </div>
+    </div> */}
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -87,15 +162,15 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                {/* <Features gridItems={intro.blurbs} /> */}
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/events">
                       See all events
                     </Link>
                   </div>
-                </div>
-                <div className="column is-12">
+                </div> */}
+                {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -105,13 +180,15 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+  
+
   </div>
 );
 
