@@ -69,6 +69,8 @@ import Scene from "../components/Scene";
 //   )
 // }
 
+//   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01))
+
 export const IndexPageTemplate = ({
   image,
   title,
