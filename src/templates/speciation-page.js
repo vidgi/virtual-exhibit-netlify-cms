@@ -41,7 +41,7 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
     <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer
-          src="/test2.gltf"
+          src="/test2.glb"
           ios-src=""
           alt="A 3D model of an astronaut"
           shadow-intensity="1"
@@ -55,7 +55,7 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
     <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer
-          src="/Model_01.gltf"
+          src="/Model_01test.gltf"
           ios-src=""
           alt="A 3D model of an astronaut"
           shadow-intensity="1"
