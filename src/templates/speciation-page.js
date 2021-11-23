@@ -38,6 +38,34 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
       ) : null}
      
     </div>
+    <div id="card">
+      {(typeof window !== 'undefined') ? (
+          <model-viewer
+          src="/test2.gltf"
+          ios-src=""
+          alt="A 3D model of an astronaut"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        ></model-viewer>
+      ) : null}
+     
+    </div>
+    <div id="card">
+      {(typeof window !== 'undefined') ? (
+          <model-viewer
+          src="/Model_01.gltf"
+          ios-src=""
+          alt="A 3D model of an astronaut"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        ></model-viewer>
+      ) : null}
+     
+    </div>
       </div>
     </section>
   );
