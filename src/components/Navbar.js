@@ -89,6 +89,9 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a> */}
+              <Link className="navbar-item" to="/speciation">
+              speciation
+              </Link>
                   <Link className="navbar-item" to="/exhibition">
               exhibition
               </Link>
