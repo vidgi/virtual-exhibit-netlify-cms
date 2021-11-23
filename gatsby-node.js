@@ -93,7 +93,7 @@ exports.onCreateWebpackConfig = ({ stage, rules, loaders, actions }) => {
         module: {
           rules: [
             {
-              test: /@google/model-viewer/,
+              test: /@google\/model-viewer/,
               use: [loaders.null()]
             }
           ]
