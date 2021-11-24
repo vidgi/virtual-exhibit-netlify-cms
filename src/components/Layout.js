@@ -11,10 +11,11 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet>
+        
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-
+        <link href="https://fonts.googleapis.com/css?family=Epilogue" rel="stylesheet"/>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
