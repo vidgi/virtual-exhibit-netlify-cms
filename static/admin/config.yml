@@ -144,7 +144,9 @@ collections:
               default: "speciation-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Artist", name: "artist", widget: "string" }
+          - { label: "Artist Statement", name: "statement", widget: "string" }
+          - { label: "Artist Bio + Links", name: "body", widget: "markdown" }
       - file: "src/pages/events/index.md"
         label: "Events Page"
         name: "events"

@@ -6,7 +6,7 @@ import Content, { HTMLContent } from "../components/Content";
 import "@google/model-viewer/dist/model-viewer";
 
 // eslint-disable-next-line
-export const SpeciationPageTemplate = ({ title, content, contentComponent }) => {
+export const SpeciationPageTemplate = ({ title, artist, statement, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -15,10 +15,14 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <h3 className="title is-size-4">
+                {artist}
+              </h3>
+              
+              
             </div>
           </div>
         </div>
@@ -67,12 +71,33 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
      
     </div>
       </div>
+      <div className="container">
+      <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="section">
+         <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
+                artist statement
+              </h2>  
+              <div className = "content"> 
+              {statement}
+              </div>
+              <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
+                artist biography
+              </h2>   
+              <PageContent className="content" content={content} />
+</div>
+</div>
+</div>
+      </div>
     </section>
   );
 };
 
 SpeciationPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  artist: PropTypes.string.isRequired,
+  statement: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
@@ -85,6 +110,8 @@ const SpeciationPage = ({ data }) => {
       <SpeciationPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        artist={post.frontmatter.artist}
+        statement={post.frontmatter.statement}
         content={post.html}
       />
     </Layout>
@@ -103,6 +130,8 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        artist
+        statement
       }
     }
   }

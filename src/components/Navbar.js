@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
             </Link> */}
             <Link className="navbar-item" to="/">
-              sculpted in our image, forged in our mind
+              <b>sculpted in our image, forged in our mind</b>
               </Link>
             {/* Hamburger menu */}
             <div
@@ -89,9 +89,26 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a> */}
-              <Link className="navbar-item" to="/speciation">
-              speciation
+              <Link className="navbar-item" to="/zoom-princess">
+              Zoom Princess
               </Link>
+              <Link className="navbar-item" to="/speciation">
+              Speciation
+              </Link>
+              <Link className="navbar-item" to="/antechamber">
+              Antechamber
+              </Link>
+              <Link className="navbar-item" to="/arcadia-inc">
+              Arcadia Inc
+              </Link>
+              <Link className="navbar-item" to="/pac-tracer">
+              Pac Tracer
+              </Link>
+
+
+
+
+
                   <Link className="navbar-item" to="/exhibition">
               exhibition
               </Link>
