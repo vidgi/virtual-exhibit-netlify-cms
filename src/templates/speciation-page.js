@@ -27,9 +27,9 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
       <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer
-          src="/Astronaut.glb"
+          src="/speciation-models/Model_01.glb"
           ios-src=""
-          alt="A 3D model of an astronaut"
+          alt="Model 1"
           shadow-intensity="1"
           camera-controls
           auto-rotate
@@ -41,9 +41,9 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
     <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer
-          src="/test2.glb"
+          src="/speciation-models/Model_02.glb"
           ios-src=""
-          alt="A 3D model of an astronaut"
+          alt="Model 2"
           shadow-intensity="1"
           camera-controls
           auto-rotate
@@ -55,9 +55,9 @@ export const SpeciationPageTemplate = ({ title, content, contentComponent }) => 
     <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer
-          src="/Model_01test.gltf"
+          src="/speciation-models/Model_03.glb"
           ios-src=""
-          alt="A 3D model of an astronaut"
+          alt="Model 3"
           shadow-intensity="1"
           camera-controls
           auto-rotate
