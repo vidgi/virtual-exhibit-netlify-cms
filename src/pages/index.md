@@ -2,19 +2,13 @@
 templateKey: index-page
 title: Exhibit
 image: /img/159935470_3770859499617446_8504202221764660395_o.jpg
-heading: nov 2 - dec 8
+heading: December 8, 2021 — February 5, 2022
 subheading: view now!
 mainpitch:
-  title: this is cool
+  title: Sculpted in Our Image, Forged in Our Minds
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+    Inspired by the myth of the golem and the robot, both reflections of humanity’s dreams and simulations, the exhibition will explore what we can learn about our world and relationships to others from simulated realities. Eroding the dichotomy of the physical and the virtual, this exhibition explores the dreams and simulations of the computer age, and how they attempt to imagine new methods of digital co-existence, with the aim of envisioning more equitable, diverse, and safe futures online.
+description: Through virtual environments, digital beings, and generative simulations artists Sarah Boo, Mads Brimble, Benjamin Chang, Cezar Mocan, and Andy Wallace explore the parallels between our dreams and simulations, and the wider implications between our physical and digital worlds. 
 intro:
   blurbs:
     - image: /img/coffee.png

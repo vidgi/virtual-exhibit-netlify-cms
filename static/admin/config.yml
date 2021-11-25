@@ -146,7 +146,88 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Artist", name: "artist", widget: "string" }
           - { label: "Artist Statement", name: "statement", widget: "string" }
-          - { label: "Artist Bio + Links", name: "body", widget: "markdown" }
+          - { label: "Artist Bio + Links", name: "bio", widget: "string" }
+          - { label: "Link 1 Title", name: "link1title", widget: "string" }
+          - { label: "Link 1 Link", name: "link1link", widget: "string" }
+          - { label: "Link 2 Title", name: "link2title", widget: "string" }
+          - { label: "Link 2 Link", name: "link2link", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - file: "src/pages/zoom-princess/index.md"
+        label: "Zoom Princess"
+        name: "zoom princess"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "zoom-princess-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Artist", name: "artist", widget: "string" }
+          - { label: "Artist Statement", name: "statement", widget: "string" }
+          - { label: "Artist Bio + Links", name: "bio", widget: "string" }
+          - { label: "Link 1 Title", name: "link1title", widget: "string" }
+          - { label: "Link 1 Link", name: "link1link", widget: "string" }
+          - { label: "Link 2 Title", name: "link2title", widget: "string" }
+          - { label: "Link 2 Link", name: "link2link", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - file: "src/pages/antechamber/index.md"
+        label: "Antechamber"
+        name: "antechamber"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "antechamber-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Artist", name: "artist", widget: "string" }
+          - { label: "Artist Statement", name: "statement", widget: "string" }
+          - { label: "Artist Bio + Links", name: "bio", widget: "string" }
+          - { label: "Link 1 Title", name: "link1title", widget: "string" }
+          - { label: "Link 1 Link", name: "link1link", widget: "string" }
+          - { label: "Link 2 Title", name: "link2title", widget: "string" }
+          - { label: "Link 2 Link", name: "link2link", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - file: "src/pages/pac-tracer/index.md"
+        label: "Pac Tracer"
+        name: "pac tracer"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "antechamber-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Artist", name: "artist", widget: "string" }
+          - { label: "Artist Statement", name: "statement", widget: "string" }
+          - { label: "Artist Bio + Links", name: "bio", widget: "string" }
+          - { label: "Link 1 Title", name: "link1title", widget: "string" }
+          - { label: "Link 1 Link", name: "link1link", widget: "string" }
+          - { label: "Link 2 Title", name: "link2title", widget: "string" }
+          - { label: "Link 2 Link", name: "link2link", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - file: "src/pages/arcadia-inc/index.md"
+        label: "Arcadia Inc"
+        name: "arcadia inc"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "arcadia-inc-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Artist", name: "artist", widget: "string" }
+          - { label: "Artist Statement", name: "statement", widget: "string" }
+          - { label: "Artist Bio + Links", name: "bio", widget: "string" }
+          - { label: "Link 1 Title", name: "link1title", widget: "string" }
+          - { label: "Link 1 Link", name: "link1link", widget: "string" }
+          - { label: "Link 2 Title", name: "link2title", widget: "string" }
+          - { label: "Link 2 Link", name: "link2link", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }      
       - file: "src/pages/events/index.md"
         label: "Events Page"
         name: "events"

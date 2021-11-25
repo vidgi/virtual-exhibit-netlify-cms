@@ -3,11 +3,10 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import "@google/model-viewer/dist/model-viewer";
 import { Link } from "gatsby";
 
 // eslint-disable-next-line
-export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent  }) => {
+export const PacTracerPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -22,51 +21,8 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
               <h3 className="title is-size-4">
                 {artist}
               </h3>
-
-      <div id="card">
-      {(typeof window !== 'undefined') ? (
-          <model-viewer
-          src="/speciation-models/Model_01.glb"
-          ios-src=""
-          alt="Model 1"
-          shadow-intensity="1"
-          camera-controls
-          auto-rotate
-          ar
-        ></model-viewer>
-      ) : null}
-     
-    </div>
-    <div id="card">
-      {(typeof window !== 'undefined') ? (
-          <model-viewer
-          src="/speciation-models/Model_02.glb"
-          ios-src=""
-          alt="Model 2"
-          shadow-intensity="1"
-          camera-controls
-          auto-rotate
-          ar
-        ></model-viewer>
-      ) : null}
-     
-    </div>
-    <div id="card">
-      {(typeof window !== 'undefined') ? (
-          <model-viewer
-          src="/speciation-models/Model_03.glb"
-          ios-src=""
-          alt="Model 3"
-          shadow-intensity="1"
-          camera-controls
-          auto-rotate
-          ar
-        ></model-viewer>
-      ) : null}
-     
-    </div>
-
-    <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
+              <PageContent className="content" content={content} />
+              <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
                 artist statement
               </h2>  
               <div className = "content"> 
@@ -91,15 +47,15 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
               </Link>
               </div>
 
-      </div>
-      </div>
+            </div>
           </div>
         </div>
+      </div>
     </section>
   );
 };
 
-SpeciationPageTemplate.propTypes = {
+PacTracerPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   artist: PropTypes.string.isRequired,
   statement: PropTypes.string.isRequired,
@@ -112,12 +68,12 @@ SpeciationPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const SpeciationPage = ({ data }) => {
+const PacTracerPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <SpeciationPageTemplate
+      <PacTracerPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         artist={post.frontmatter.artist}
@@ -133,14 +89,14 @@ const SpeciationPage = ({ data }) => {
   );
 };
 
-SpeciationPage.propTypes = {
+PacTracerPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default SpeciationPage;
+export default PacTracerPage;
 
 export const aboutPageQuery = graphql`
-  query SpeciationPage($id: String!) {
+  query PacTracerPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
