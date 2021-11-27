@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "gatsby";
+import Sidebar from '../components/Sidebar'
 
 // eslint-disable-next-line
 export const AntechamberPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent }) => {
@@ -13,7 +14,10 @@ export const AntechamberPageTemplate = ({ title, artist, statement, bio, link1ti
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+        <div className="column is-one-quarter">
+        <Sidebar />
+        </div>
+          <div className="column is-11">
             <div className="section">
               <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title}

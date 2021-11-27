@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "gatsby";
 import Gallery from 'react-grid-gallery';
+import Sidebar from '../components/Sidebar'
 
 
 // eslint-disable-next-line
@@ -47,7 +48,10 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+        <div className="column is-one-quarter">
+        <Sidebar />
+        </div>
+          <div className="column">
             <div className="section">
               <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title}
@@ -66,7 +70,9 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
                 <Gallery
             images={data}
             enableLightbox={true}
-            enableImageSelection={false}/>
+            enableImageSelection={false}
+            rowHeight={100}
+            margin={10}/>
                 </div>
 
 

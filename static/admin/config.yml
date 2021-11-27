@@ -133,6 +133,30 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+       - file: "src/pages/essay/index.md"
+        label: "Essay"
+        name: "essay"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "essay-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+       - file: "src/pages/exhibition/index.md"
+        label: "Exhibition"
+        name: "exhibition"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "essay-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/speciation/index.md"
         label: "Speciation"
         name: "speciation"
@@ -239,37 +263,13 @@ collections:
               default: "events-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
           - { label: Description, name: description, widget: string }
-          - {
-              label: Intro,
-              name: intro,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Blurbs,
-                    name: blurbs,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
-                      ],
-                  },
-                ],
-            }
           - {
               label: Main,
               name: main,
               widget: object,
               fields:
                 [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
                   {
                     label: Image1,
                     name: image1,
@@ -303,17 +303,6 @@ collections:
                 ],
             }
           - {
-              label: Testimonials,
-              name: testimonials,
-              widget: list,
-              fields:
-                [
-                  { label: Quote, name: quote, widget: string },
-                  { label: Author, name: author, widget: string },
-                ],
-            }
-          - { label: Full_image, name: full_image, widget: image }
-          - {
               label: Pricing,
               name: pricing,
               widget: object,
@@ -328,7 +317,8 @@ collections:
                     fields:
                       [
                         { label: Plan, name: plan, widget: string },
-                        { label: Price, name: price, widget: string },
+                        { label: Location, name: location, widget: string },
+                        { label: Link, name: link, widget: string },
                         {
                           label: Description,
                           name: description,

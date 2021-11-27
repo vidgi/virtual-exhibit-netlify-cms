@@ -25,4 +25,4 @@ VIDYA GIRI is an artist/designer/engineer based in Houston, TX. Her current expl
 
 [Website](https://www.vidyagiri.com/)
 
-[Instagram](https://www.instagram.com/vid.giri/)
+[Instagram](https://www.instagram.com/vidgiri/)

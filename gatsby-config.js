@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "sculpted in our image, forged in our mind",
+    title: "Sculpted in Our Image, Forged in Our Minds",
     description:
-    "sculpted in our image, forged in our mind: an interaccess virtual exhibition",
+    "Sculpted in Our Image, Forged in Our Minds: an interaccess virtual exhibition",
     },
   plugins: [
     "gatsby-plugin-react-helmet",
