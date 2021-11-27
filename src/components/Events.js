@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from "gatsby";
 
-const Pricing = ({ data }) => (
+const Events = ({ data }) => (
   <div className="columns">
     {data.map((price) => (
       <div key={price.plan} className="column">
@@ -31,7 +31,7 @@ const Pricing = ({ data }) => (
   </div>
 )
 
-Pricing.propTypes = {
+Events.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       plan: PropTypes.string,
@@ -43,4 +43,4 @@ Pricing.propTypes = {
   ),
 }
 
-export default Pricing
+export default Events

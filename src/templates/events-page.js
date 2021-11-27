@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
+import Events from "../components/Events";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 // eslint-disable-next-line
@@ -51,7 +51,7 @@ export const EventsPageTemplate = ({
               </div> */}
 
               {/* <p className="is-size-5">{pricing.description}</p> */}
-              <Pricing data={pricing.plans} />
+              <Events data={pricing.plans} />
             </div>
           </div>
         </div>
