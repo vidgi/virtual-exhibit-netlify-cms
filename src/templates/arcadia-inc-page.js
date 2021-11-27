@@ -1,27 +1,15 @@
-import React,{useState,useEffect, useCallback} from 'react';
+import React,{useState,useEffect} from 'react';
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "gatsby";
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
+import Gallery from 'react-grid-gallery';
+
 
 // eslint-disable-next-line
 export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
 
   const [data,setData]=useState([]);
   const getData=()=>{
@@ -38,6 +26,8 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
               console.log(myJson[key].src);
               var object = {
                 src: myJson[key].src,
+                thumbnail: myJson[key].src,
+                caption: myJson[key].name,
                 width: 4,
                 height: 3
               };
@@ -68,24 +58,19 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
               <PageContent className="content" content={content} />
 
               <div>
-<Gallery photos={data} onClick={openLightbox} />
-     <ModalGateway>
-       {viewerIsOpen ? (
-         <Modal onClose={closeLightbox}>
-           <Carousel
-             currentIndex={currentImage}
-             views={data.map(x => ({
-               ...x,
-               srcset: x.srcSet,
-               caption: x.title
-             }))}
-           />
-         </Modal>
-       ) : null}
-     </ModalGateway>   
+              <div style={{
+                    display: "block",
+                    minHeight: "1px",
+                    width: "100%",
+                    overflow: "auto"}}>
+                <Gallery
+            images={data}
+            enableLightbox={true}
+            enableImageSelection={false}/>
+                </div>
 
-     
-        
+
+
 </div>
 <br></br>
               <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
