@@ -122,7 +122,19 @@ h1, h2, h3, h4
   color: white !important
 // Override for use of svg's from https://simpleicons.org/
 
+.mobile-sidebar-item
+  display: none
+  color: white !important
+  line-height: 1.5
+  padding: 0.5rem 0.5rem
+  flex-direction: column
+  align-items: flex-start
 
+.mobile-sidebar-item:hover,
+.mobile-sidebar-item:active,
+.mobile-sidebar-item:focus
+  color: black !important
+  background-color: white !important
 
 .sidebar-item
   color: white !important
@@ -214,6 +226,9 @@ $menu-label-color: $white-ter
     background-color: black !important
   .sidebar-item
     display: none
+  .mobile-sidebar-item
+    display: flex
+
 
 
 #card 
@@ -231,3 +246,23 @@ model-viewer
   height: 400px
   background-color: rgb(104,97,213)
   background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%)
+
+.bg-img 
+  background-image: url("../img/3x-about-mesh.png")
+  background-position: top right
+  background-repeat:  no-repeat
+  background-attachment: fixed
+  background-size:  50%
+
+.essay-bg-img 
+  background-image: url("../img/3x-about-mesh.png")
+  background-position: top left
+  background-repeat:  no-repeat
+  background-attachment: fixed
+  background-size:  50%
+
+
+.img-responsive
+  display: block
+  max-width: 100%
+  height: auto

@@ -5,7 +5,16 @@ title: About
 ---
 ### ABOUT INTERACCESS
 
-InterAccess is	a	gallery,	educational	facility,	production	studio,festival,	and	charity	dedicated	to	new	media	and	emerging	practices	in	art	and	technology.	Our	mission	is	to	expand	the	cultural	significance	of	art	and	technology	by	fostering	and	supporting	the	full cycle	of	art	and	artistic	practice	through	education,	production,	and	exhibition.	InterAccess	was	founded	in	1983.
+Founded in 1983 as Toronto Community-Videotex, InterAccess is a gallery, educational facility, production studio, festival, and registered charity dedicated to new media and emerging practices in art and technology.
+
+InterAccess’s mission is to expand the cultural significance of art and technology by fostering and supporting the full cycle of art and artistic practice through education, production, and exhibition.
+
+We envision an environment in which:
+- Art that engages technology gains widespread cultural resonance;
+- Critical discourse around technologies is catalyzed by artists, curators, and cultural workers;
+- The full life cycle of art and artists is nurtured.
+
+Annually we execute multiple exhibitions, a full curriculum of skill-building and critical theory workshops, and a broad range of discursive events that explore the impact of technology on the social, political and cultural aspects of contemporary life. Our studio space facilitates the circulation of skills and techniques required to produce the work we exhibit in our gallery space.
 
 ### ABOUT IA CURRENT
 

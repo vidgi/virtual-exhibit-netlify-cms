@@ -13,9 +13,13 @@ const Sidebar = class extends React.Component {
   render() {
     return (
           <div>
-            <Link className="sidebar-item" to="/exhibition">
+            <Link className="mobile-sidebar-item" to="/exhibition">
+            <small><small>← Return to</small></small>
               Exhibit Overview
-              <small><small>View all works</small></small>
+              </Link>
+              <Link className="sidebar-item" to="/exhibition">
+            <small><small>← Return to</small></small>
+              Exhibit Overview
               </Link>
               <Link className="sidebar-item" to="/zoom-princess">
               Zoom Princess

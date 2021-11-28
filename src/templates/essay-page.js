@@ -9,10 +9,13 @@ export const EssayPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
+    <div class="essay-bg-img">
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+        <div className="column is-one-quarter is-offset-1">
+          </div>
+          <div className="column is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-semibold">
                 {title}
@@ -23,6 +26,7 @@ export const EssayPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
