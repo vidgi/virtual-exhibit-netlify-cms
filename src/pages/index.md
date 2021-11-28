@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Exhibit
 image: /img/159935470_3770859499617446_8504202221764660395_o.jpg
-heading: December 8, 2021 — February 5, 2022
+heading: DEC 8, 2021 — FEB 5, 2022
 subheading: view now!
 mainpitch:
   title: Sculpted in Our Image, Forged in Our Minds

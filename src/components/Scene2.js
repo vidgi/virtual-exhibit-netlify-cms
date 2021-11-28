@@ -9,7 +9,7 @@ import {Canvas, useFrame} from 'react-three-fiber'
 
 
 
-export default function Scene({ ...props }) {
+export default function Scene2({ ...props }) {
 
   const { nodes, materials } = useGLTF('/test2.gltf')
   // const rotationVal = -Math.PI / 2
@@ -18,16 +18,16 @@ export default function Scene({ ...props }) {
   // useFrame(() => (rotationVal = rotationVal +0.01))
   // useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01))
   useFrame((state) => {
-    const t = state.clock.getElapsedTime()+34
+    const t = state.clock.getElapsedTime()+0
     ref.current.rotation.x = 5*Math.cos(t/2)/8
     ref.current.rotation.y = t/8
     ref.current.rotation.z = -0.2-(1+Math.sin(t/1.5))/4
     ref.current.position.z = (2+Math.sin(t/2))/20
     ref.current.position.x = 1
-    ref.current.position.y = 0
-    ref.current.scale.y = 2
-    ref.current.scale.x = 2
-    ref.current.scale.z = 2
+    ref.current.position.y = 10
+    ref.current.scale.y = 4
+    ref.current.scale.x = 4
+    ref.current.scale.z = 4
 
 
   })

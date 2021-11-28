@@ -13,35 +13,29 @@ const Sidebar = class extends React.Component {
   render() {
     return (
           <div>
-            <Link className="navbar-item" to="/exhibition">
+            <Link className="sidebar-item" to="/exhibition">
               Exhibit Overview
-              <br></br>
-              View all works
+              <small><small>View all works</small></small>
               </Link>
-              <Link className="navbar-item" to="/zoom-princess">
+              <Link className="sidebar-item" to="/zoom-princess">
               Zoom Princess
-              <br></br>
-              Sarah Boo
+              <small><small>Sarah Boo</small></small>
               </Link>
-              <Link className="navbar-item" to="/speciation">
+              <Link className="sidebar-item" to="/speciation">
               Speciation
-              <br></br>
-              Mads Brimble
+              <small><small>Mads Brimble</small></small>
               </Link>
-              <Link className="navbar-item" to="/antechamber">
+              <Link className="sidebar-item" to="/antechamber">
               Antechamber
-              <br></br>
-              Benjamin Chang
+              <small><small>Benjamin Chang</small></small>
               </Link>
-              <Link className="navbar-item" to="/arcadia-inc">
+              <Link className="sidebar-item" to="/arcadia-inc">
               Arcadia Inc
-              <br></br>
-              Cezar Mocan
+              <small><small>Cezar Mocan</small></small>
               </Link>
-              <Link className="navbar-item" to="/pac-tracer">
+              <Link className="sidebar-item" to="/pac-tracer">
               Pac Tracer
-              <br></br>
-              Andy Wallace
+              <small><small>Andy Wallace</small></small>
               </Link>
             
         </div>
