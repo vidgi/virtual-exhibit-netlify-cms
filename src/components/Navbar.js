@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
             </Link> */}
             <Link className="navbar-item" to="/">
-              <b>Sculpted in Our Image, Forged in Our Minds</b>
+              Sculpted in Our Image, Forged in Our Minds
               </Link>
             {/* Hamburger menu */}
             <div

@@ -19,20 +19,20 @@ export const ZoomPrincessPageTemplate = ({ title, artist, statement, bio, link1t
         </div>
           <div className="column">
             <div className="section">
-              <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-2 has-text-weight-semibold">
                 {title}
               </h2>
-              <h3 className="title is-size-4 ">
+              <h3 className="title is-size-4 has-text-weight-normal">
                 {artist}
               </h3>
               <PageContent className="content" content={content} />
-              <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-4 has-text-weight-semibold">
                 artist statement
               </h2>  
               <div className = "content"> 
               {statement}
               </div>
-              <h2 className="title is-size-4 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-4 has-text-weight-semibold">
                 artist biography
               </h2>   
               <div className = "content"> 

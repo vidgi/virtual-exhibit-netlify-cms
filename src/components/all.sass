@@ -128,13 +128,10 @@ h1, h2, h3, h4
   color: white !important
   line-height: 1.5
   padding: 0.5rem 0.5rem
+  display: flex
+  flex-direction: column
+  align-items: flex-start
 
-
-@media screen and (min-width: 1024px)
-.sidebar-item
-    display: flex
-    flex-direction: column
-    align-items: flex-start
 
 .sidebar-item:hover,
 .sidebar-item:active,
@@ -204,6 +201,7 @@ $menu-label-color: $white-ter
     flex-basis: 50%
   .navbar-menu
     background-color: black !important
+  
 
 +mobile
   .blog-list-item header
@@ -214,6 +212,8 @@ $menu-label-color: $white-ter
     margin: 0 0 1em
   .navbar-menu
     background-color: black !important
+  .sidebar-item
+    display: none
 
 
 #card 

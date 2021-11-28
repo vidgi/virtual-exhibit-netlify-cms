@@ -21,9 +21,7 @@ export const EventsPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-            
-              
-              <h2 className="has-text-weight-semibold is-size-2">
+              <h2 className="has-text-weight-semibold is-size-3">
                 {title}
               </h2>
               {/* {description} */}
