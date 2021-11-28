@@ -17,7 +17,7 @@ export const PacTracerPageTemplate = ({ title, artist, statement, bio, link1titl
         <div className="column is-one-quarter">
         <Sidebar />
         </div>
-          <div className="column is-11">
+          <div className="column">
             <div className="section">
               <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title}
