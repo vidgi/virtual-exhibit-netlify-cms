@@ -63,6 +63,7 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
 
               <div>
               <div style={{
+                    justify: "center",
                     display: "block",
                     minHeight: "1px",
                     width: "100%",
@@ -71,7 +72,7 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
             images={data}
             enableLightbox={true}
             enableImageSelection={false}
-            rowHeight={100}
+            rowHeight={75}
             margin={10}/>
                 </div>
 
