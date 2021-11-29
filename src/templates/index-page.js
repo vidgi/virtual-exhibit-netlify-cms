@@ -43,9 +43,9 @@ export const IndexPageTemplate = ({
              <br></br>
              <p className="has-text-weight-light">{description}</p>
              <br></br>
-             <div className = "content"> 
+             <div className = "is-size-4 content has-text-weight-normal"> 
               <Link to="/exhibition">
-              enter exhibit→
+              ENTER EXHIBIT→
               </Link>
           </div>
            </div>

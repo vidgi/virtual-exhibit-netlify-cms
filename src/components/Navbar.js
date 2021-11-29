@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import interaccess from "../img/interaccess-icon-white.png";
-import logo from "../img/logo.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,13 +40,10 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            {/* <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-            </Link> */}
+
             <Link className="navbar-item" to="/">
               Sculpted in Our Image, Forged in Our Minds
               </Link>
-            {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
@@ -66,40 +62,7 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             
-            <div className="navbar-start has-text-centered">
-            {/* <Link className="navbar-item" to="/exhibition">
-              exhibition
-              </Link>
-              <Link className="navbar-item" to="/about">
-                about
-              </Link>
-              <Link className="navbar-item" to="/events">
-                events
-              </Link> */}
-
-            </div>
             <div className="navbar-end has-text-centered">
-{/*              
-              <Link className="navbar-item" to="/zoom-princess">
-              Zoom Princess
-              </Link>
-              <Link className="navbar-item" to="/speciation">
-              Speciation
-              </Link>
-              <Link className="navbar-item" to="/antechamber">
-              Antechamber
-              </Link>
-              <Link className="navbar-item" to="/arcadia-inc">
-              Arcadia Inc
-              </Link>
-              <Link className="navbar-item" to="/pac-tracer">
-              Pac Tracer
-              </Link> */}
-
-
-
-
-
                   <Link className="navbar-item" to="/exhibition">
               exhibition
               </Link>

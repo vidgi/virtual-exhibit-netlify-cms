@@ -95,7 +95,19 @@ exports.onCreateWebpackConfig = ({ stage, rules, loaders, actions }) => {
             {
               test: /@google\/model-viewer/,
               use: [loaders.null()]
-            }
+            },
+             {
+              test: /\.(glb|gltf)$/,
+              use: [
+               {
+                loader: 'file-loader',
+                options: {
+                 outputPath: 'assets/models',
+                 sourceMap: true
+                }
+               }
+              ]
+             }
           ]
         }
       });

@@ -4,23 +4,26 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Sidebar from '../components/Sidebar'
+import App from '../components/App'
 
 // eslint-disable-next-line
 export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
+   
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="exhibition-sidebar">
-              <h2 className="title is-size-3 has-text-weight-semibold">
+          <div className="column" style={{height: 500}}>
+
+         < h2 className="title is-size-3 has-text-weight-semibold">
                 {title}
               </h2>
-        <Sidebar />
-            </div>
-          </div>
+              {/* <div className="column" style={{width: 500, height: '100%'}}> */}
+
+<App />
+</div>
         </div>
       </div>
     </section>
