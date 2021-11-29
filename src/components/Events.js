@@ -18,7 +18,7 @@ const Events = ({ data }) => (
       <div key={price.plan} className="column">
         <section className="section">
         <div style={{ position: "relative", width: 200, height: 250 }}>
-        <Canvas>
+        <Canvas dpr={[1,2]}>
           <ambientLight />
            <pointLight position={[10, 10, 10]} />
             <Suspense fallback={null}>
@@ -26,7 +26,7 @@ const Events = ({ data }) => (
             </Suspense>
         </Canvas>
         </div>
-          <h4 className="is-size-4 has-text-right	has-text-weight-normal">
+          <h4 className="is-size-4 has-text-right	has-text-weight-semibold">
             {price.plan}
           </h4>     
           <p className="has-text-right has-text-weight-normal">{price.description}</p>

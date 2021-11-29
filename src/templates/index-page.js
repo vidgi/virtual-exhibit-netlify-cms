@@ -20,17 +20,15 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-   <div className="full-width-image margin-top-0">
-   <Canvas>
+    <div style={{ position: "relative", height: 250 }} className="full-width-image margin-top-0">
+   <Canvas dpr={[1, 2]}>
     <ambientLight />
     <pointLight position={[10, 10, 10]} />
     <Suspense fallback={null}>
               <Scene position={[0, 0, 0]}/>
-              
-                  {/* <Box position={[0, 0, 0]} /> */}
-
+          
            </Suspense>
-      </Canvas>
+      </Canvas >
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -57,8 +55,8 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <div className="full-width-image margin-top-0">
-   <Canvas>
+    <div style={{ position: "relative", height: 250 }} className="full-width-image margin-top-0">
+   <Canvas dpr={[1, 2]}>
     <ambientLight />
     <pointLight position={[10, 10, 10]} />
     <Suspense fallback={null}>
