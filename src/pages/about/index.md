@@ -30,7 +30,9 @@ TRISTAN SAUER is a new media artist and curator critically interested in work fo
 
 ### ABOUT THE DESIGNER/DEVELOPER
 
-VIDYA GIRI is an artist/designer/engineer based in Houston, TX. Her current explorations revolve around the interactions between human-made creations and their environments. She is highly interested in the development and design of experimental digital aesthetics and the human side of technology. Across various forms of experience, she has designed and developed websites and applications, worked with artists in organizing exhibitions, and experimented in the technology-based/new media art universe.
+VIDYA GIRI is an artist/designer/engineer based in Houston, TX. Her work and current explorations revolve around the interactions between human-synthesized creations and their environments along with experimental digital aesthetics. Across various forms of experience, she creates works with experimental visual media and technology. 
+
+She has designed and developed this exhibition around the concept that, "machinery and technology are similar to the narrative of the golem: where clay is brought to life by magic to serve humankind". Similarly, the mesh forms used in this exhibition are sculpted from a digital ball of clay and allude to the underlying technical and societal frameworks that computers are built from and the digital presence of the featured works.
 
 [Website](https://www.vidyagiri.com/)
 

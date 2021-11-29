@@ -12,7 +12,7 @@ export default function Keyboard(props) {
   const { nodes, materials } = useGLTF('/test2.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
-      <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} position={[0.01,0.07,-0.01]} scale={0.09}> 
+      <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} position={[0.01,0.07,-0.01]} scale={0.0865}> 
            <meshStandardMaterial
               color={"#c8f5a6"}
               roughness={0.5}

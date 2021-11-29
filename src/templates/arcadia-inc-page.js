@@ -14,6 +14,7 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
 
   const [data,setData]=useState([]);
   const getData=()=>{
+    // https://arcadia-img.s3.amazonaws.com/photo-index.json
     fetch('photo-index.json')
       .then(function(response){
         // console.log(response)
