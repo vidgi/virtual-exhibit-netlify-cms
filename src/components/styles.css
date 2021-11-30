@@ -1,7 +1,6 @@
 /* Styles.css - Mobile first */
 
 
-
 .scroll {
     width: 100%;
     height: 100%;
@@ -20,9 +19,9 @@
 }
 
 
- /* .scroll > div { 
+ .scroll > div { 
     scroll-snap-align: unset;
- } */ 
+ } 
 
 .slide {
     /* height: 100vh; */

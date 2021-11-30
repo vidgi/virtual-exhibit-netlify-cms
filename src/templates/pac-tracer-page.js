@@ -15,7 +15,7 @@ export const PacTracerPageTemplate = ({ title, artist, statement, bio, link1titl
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">
-        <Sidebar />
+        <Sidebar backlink="/exhibition#pac-tracer" />
         </div>
           <div className="column">
             <div className="section">

@@ -50,7 +50,7 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">
-        <Sidebar />
+        <Sidebar backlink="/exhibition#arcadia-inc"/>
         </div>
           <div className="column">
             <div className="section">

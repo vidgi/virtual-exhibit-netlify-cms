@@ -71,6 +71,10 @@ function App() {
       </div>
 
       <Overlay ref={overlay} caption={caption} scroll={scroll} />
+      <div className="exhibitiontitle" style={{color:'black'}}>
+         .
+         .
+</div>
     </>
   );
 }

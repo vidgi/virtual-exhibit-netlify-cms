@@ -15,7 +15,7 @@ export const AntechamberPageTemplate = ({ title, artist, statement, bio, link1ti
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">
-        <Sidebar />
+        <Sidebar backlink="/exhibition#antechamber"/>
         </div>
           <div className="column">
             <div className="section">

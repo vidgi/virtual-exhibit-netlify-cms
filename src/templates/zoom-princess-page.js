@@ -15,7 +15,7 @@ export const ZoomPrincessPageTemplate = ({ title, artist, statement, bio, link1t
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">
-        <Sidebar />
+        <Sidebar backlink="/exhibition#zoom-princess" />
         </div>
           <div className="column">
             <div className="section">

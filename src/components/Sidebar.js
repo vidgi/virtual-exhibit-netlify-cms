@@ -1,23 +1,17 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const Sidebar = class extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      active: false,
-      navBarActiveClass: "",
-    };
-  }
+export default function Sidebar(props) {
+  const backlink = props.backlink
 
-  render() {
     return (
           <div>
-            <Link className="mobile-sidebar-item" to="/exhibition">
+            <br></br>
+            <Link className="mobile-sidebar-item" to={backlink}>
             <small><small>← Return to</small></small>
               Exhibit Overview
               </Link>
-              <Link className="sidebar-item" to="/exhibition">
+              <Link className="sidebar-item" to={backlink}>
             <small><small>← Return to</small></small>
               Exhibit Overview
               </Link>
@@ -43,8 +37,5 @@ const Sidebar = class extends React.Component {
               </Link>
             
         </div>
-    );
-  }
-};
-
-export default Sidebar;
+    )
+}

@@ -16,7 +16,7 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">
-        <Sidebar />
+        <Sidebar backlink="/exhibition#speciation" />
         </div>
           <div className="column">
             <div className="section">
