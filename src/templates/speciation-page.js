@@ -27,6 +27,9 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
                 {artist}
               </h3>
 
+              <PageContent className="content" content={content} />
+
+
       <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer

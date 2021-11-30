@@ -1,7 +1,6 @@
 import React, { forwardRef } from 'react';
 import { Link } from "gatsby";
-import { Spring } from "react-spring/renderprops-universal";
-import VisibilitySensor from "react-visibility-sensor";
+
 
 const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div
@@ -13,38 +12,38 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
                 // scroll.current = -e.target.scrollLeft / (e.target.scrollWidth - window.innerWidth)   
             // }
             let progress = scroll.current.toFixed(2)
-            let grad = ((progress * 100) / 1.66).toFixed(0)
+            let grad = ((progress * 100) / 1.36).toFixed(0)
             caption.current.innerText = `${Math.abs(grad)}%`
         }}
         className="scroll">
 
         <div className="slide" style={{width: "45vw"}}>
-            <Link className="sidebar-item" to="/zoom-princess">
+            <Link className="exhibit-item" to="/zoom-princess">
                 Zoom Princess →
                 <small><small>Sarah Boo</small></small>
             </Link>
         </div>
 
         <div className="slide" style={{width: "45vw"}}>
-            <Link className="sidebar-item" to="/speciation">
+            <Link className="exhibit-item" to="/speciation">
               Speciation →
               <small><small>Mads Brimble</small></small>
              </Link>
         </div>
         <div className="slide" style={{width: "45vw"}}>
-            <Link className="sidebar-item" to="/antechamber">
+            <Link className="exhibit-item" to="/antechamber">
               Antechamber →
               <small><small>Benjamin Chang</small></small>
             </Link>
         </div>
         <div className="slide" style={{width: "45vw"}}>
-            <Link className="sidebar-item" to="/arcadia-inc">
+            <Link className="exhibit-item" to="/arcadia-inc">
               Arcadia Inc →
               <small><small>Cezar Mocan</small></small>
             </Link>
         </div>
         <div className="slide" style={{width: "45vw"}}>
-            <Link className="sidebar-item" to="/pac-tracer">
+            <Link className="exhibit-item" to="/pac-tracer">
               Pac Tracer →
               <small><small>Andy Wallace</small></small>
             </Link>

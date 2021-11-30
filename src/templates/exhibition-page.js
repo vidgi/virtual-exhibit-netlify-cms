@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Sidebar from '../components/Sidebar'
 import App from '../components/App'
+import ProgressBar from 'react-progressbar-on-scroll';
 
 // eslint-disable-next-line
 export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => {
@@ -13,6 +14,13 @@ export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => 
   return (
    
     <section className="section section--gradient">
+      
+      <ProgressBar
+      color="pink"
+      gradient={true}
+      colorGradient="yellow"
+      height={5}
+    />
       <div className="container">
         <div className="columns">
           <div className="column" style={{height: 500}}>
@@ -21,7 +29,7 @@ export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => 
                 {title}
               </h2>
               {/* <div className="column" style={{width: 500, height: '100%'}}> */}
-
+             
 <App />
 </div>
         </div>

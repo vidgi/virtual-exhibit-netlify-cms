@@ -1,6 +1,7 @@
 import React, { Suspense, useRef } from "react";
 import { Canvas } from '@react-three/fiber';
 
+
 import Keyboard from "./Keyboard";
 import './styles.css';
 
@@ -21,12 +22,12 @@ function App() {
   
   return (
     <>
+    
+
       <div style={{width: '100%', height: '100%'}}>
+     
 
-
-        {/* <div className="helper">
-          ↓
-        </div> */}
+       
 
         <Canvas
           shadows
@@ -64,6 +65,9 @@ function App() {
           {/* End Scene objects */}
 
         </Canvas>
+        {/* <div className="helper">
+        <small><small><small>SCROLL DOWN</small></small></small>
+        </div> */}
       </div>
 
       <Overlay ref={overlay} caption={caption} scroll={scroll} />
