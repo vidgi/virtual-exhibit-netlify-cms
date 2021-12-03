@@ -33,7 +33,7 @@ export default function Scene3({params}) {
 
   return (
     <group ref={ref} dispose={null}>
-    <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} scale={2}> 
+    <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} scale={1.5}> 
            <meshStandardMaterial
               color={params.color}
               roughness={0.5}

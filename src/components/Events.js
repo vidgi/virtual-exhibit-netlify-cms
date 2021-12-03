@@ -17,7 +17,7 @@ const Events = ({ data }) => (
     {data.map((price) => (
       <div key={price.plan} className="column">
         <section className="section">
-        <div style={{ position: "relative", width: 200, height: 250 }}>
+        <div style={{ position: "relative", width: 250, height: 300 }}>
         <Canvas dpr={[1,2]}>
           <ambientLight />
            <pointLight position={[10, 10, 10]} />
