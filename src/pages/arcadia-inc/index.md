@@ -1,7 +1,7 @@
 ---
 templateKey: arcadia-inc-page
 path: /arcadia-inc
-title: Arcadia Inc
+title: Arcadia Inc.
 artist: Cezar Mocan
 statement: >
     Arcadia Inc. is a work of speculative fiction which responds to the use of landscape photography as a carrier for brand ideologies, on the computer desktop and beyond. The fictional company proposes the synthetic landscape as a “clean, context-free alternative to nature imagery”. This work calls attention to a devastating history of Western landscape representation – in paintings, writing, or photographs – often historically used as a way to assert power over a place and a people. There is a direct tie between Euro-centric westward expansion and the pictorial erasure of histories, cultures and peoples. The lack of human life in these paintings is by design: it aided the propaganda campaign that fed notions of Manifest Density. Similar tactics have been used, since the beginning of personal computers with Microsoft Windows XP's bliss.png, by the tech industry as a way to strengthen brand identity – what can be more desirable than unrestricted access to the beauty of nature, anywhere, anytime? – while often continuing to erase context, labor or lives under the guise of "user-friendliness".

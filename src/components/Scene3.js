@@ -42,7 +42,7 @@ export default function Scene3({params}) {
               attach="material"
               transparent={true}
               opacity={0.8}
-              wireframeLinewidth = {10}
+              wireframeLinewidth = {1}
          />
       </mesh>
     </group>

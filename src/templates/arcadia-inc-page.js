@@ -87,11 +87,35 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
               <div className = "content"> 
               {statement}
               </div>
+
               <div className = "content"> 
               <Link  to="https://arcadia-inc.org">
-              Arcadia Inc website
+              Arcadia Inc. website
               </Link>
               </div>
+
+              <div className = "content"> 
+              <Link  to="https://www.twitch.tv/arcadia_inc/">
+              Twitch Stream
+              </Link>
+              </div>
+
+              <h2 className="title is-size-4 has-text-weight-semibold">
+                credits
+              </h2>   
+
+              <div className = "content"> 
+              Producer: <Link  to="https://www.lizzy-chiappini.com/">
+              Lizzy Chiappini
+              </Link>
+              </div>
+
+              <div className = "content"> 
+              Composer: 
+              Emma Brown
+              </div>
+
+             
               <h2 className="title is-size-4 has-text-weight-semibold">
                 artist biography
               </h2>   

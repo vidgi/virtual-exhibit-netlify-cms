@@ -29,7 +29,7 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
 
               <PageContent className="content" content={content} />
 
-
+{/* 
       <div id="card">
       {(typeof window !== 'undefined') ? (
           <model-viewer
@@ -71,7 +71,7 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
         ></model-viewer>
       ) : null}
      
-    </div>
+    </div> */}
 
     <h2 className="title is-size-4 has-text-weight-semibold">
                 artist statement

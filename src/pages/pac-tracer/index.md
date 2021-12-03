@@ -14,5 +14,5 @@ link2link: https://twitter.com/Andy_Makes
 ---
 
 <div style="padding:56.25% 0 0 0;position:relative;">
-  <iframe  frameBorder="0"style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 6px;" src="https://andymakesgames.com/extras/files/pac-tracer/site/"></iframe>
+  <iframe scrolling="no" frameBorder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 6px;" src="https://andymakesgames.com/extras/files/pac-tracer/site/"></iframe>
 </div>

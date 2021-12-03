@@ -28,7 +28,7 @@ export default function Sidebar(props) {
               <small><small>Benjamin Chang</small></small>
               </Link>
               <Link className="sidebar-item" to="/arcadia-inc">
-              Arcadia Inc
+              Arcadia Inc.
               <small><small>Cezar Mocan</small></small>
               </Link>
               <Link className="sidebar-item" to="/pac-tracer">

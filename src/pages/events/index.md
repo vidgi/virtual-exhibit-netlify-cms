@@ -28,7 +28,7 @@ pricing:
         - Thursday, January 20, 2022 | 7PM (EST)
       plan: Performances
       location: Online via Twitch
-      link: https://interaccess.org/exhibition/sculpted-our-image-forged-our-minds
+      link: https://www.twitch.tv/arcadia_inc/
     - description: Sculpted in Our Image, Forged in Our Minds
       items:
         - Thursday, January 13, 2022 | 7—8 PM (EST)

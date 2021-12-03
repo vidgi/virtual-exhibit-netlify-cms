@@ -21,7 +21,7 @@ export default function Keyboard(props) {
               attach="material"
               transparent={true}
               opacity={0.8}
-              wireframeLinewidth = {10}
+              wireframeLinewidth = {1}
          />
       </mesh>
       

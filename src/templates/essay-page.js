@@ -20,7 +20,9 @@ export const EssayPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-semibold">
                 {title}
               </h2>
+              <small>
               <PageContent className="content" content={content} />
+              </small>
             </div>
           </div>
         </div>

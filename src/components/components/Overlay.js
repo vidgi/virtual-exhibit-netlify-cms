@@ -38,7 +38,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         </div>
         <div className="slide" style={{width: "45vw"}} id="arcadia-inc">
             <Link className="exhibit-item" to="/arcadia-inc">
-              Arcadia Inc →
+              Arcadia Inc. →
               <small><small>Cezar Mocan</small></small>
             </Link>
         </div>
