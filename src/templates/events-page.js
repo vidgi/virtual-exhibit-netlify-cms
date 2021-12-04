@@ -2,16 +2,17 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Events from "../components/Events";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 // eslint-disable-next-line
-export const EventsPageTemplate = ({
-  title,
-  events,
-}) => (
+export const EventsPageTemplate = ({ title, events, content, contentComponent }) => {
+  const PageContent = contentComponent || Content;
+
+  return(
   <div className="content">
     
     <section className="section section--gradient">
@@ -23,6 +24,7 @@ export const EventsPageTemplate = ({
                 {title}
               </h2>
               <Events data={events.events} />
+              <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
@@ -30,33 +32,35 @@ export const EventsPageTemplate = ({
     </section>
   </div>
 );
+};
 
 EventsPageTemplate.propTypes = {
   title: PropTypes.string,
   events: PropTypes.shape({
     events: PropTypes.array,
   }),
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
 };
 
+
 const EventsPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
       <EventsPageTemplate
-        title={frontmatter.title}
-        events={frontmatter.events}
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        events={post.frontmatter.events}
+        content={post.html}
       />
     </Layout>
   );
 };
 
 EventsPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+  data: PropTypes.object.isRequired,
 };
 
 export default EventsPage;
@@ -64,6 +68,7 @@ export default EventsPage;
 export const eventsPageQuery = graphql`
   query EventsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         events {

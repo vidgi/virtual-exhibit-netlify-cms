@@ -28,4 +28,14 @@ events:
       link: https://www.youtube.com/user/interaccessTO
 ---
 
-hi
+### Performances — Arcadia Inc. Live
+
+(insert description and other stuff here)
+
+### Curator Talk — Sculpted in Our Image, Forged in Our Minds
+
+(insert description and other stuff here)
+
+### Screening + Discussion — Primordial Dismemberment, Sadovnik (2021)
+
+(insert description and other stuff here)

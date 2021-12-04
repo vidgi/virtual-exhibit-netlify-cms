@@ -12,6 +12,7 @@ const EventsPagePreview = ({ entry, getAsset }) => {
       events={{
         events: pricingPlans,
       }}
+      content={widgetFor('body')}
     />
   )
 }
@@ -21,6 +22,7 @@ EventsPagePreview.propTypes = {
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
+  widgetFor: PropTypes.func,
 }
 
 export default EventsPagePreview

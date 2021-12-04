@@ -172,6 +172,7 @@ collections:
               default: "events-page",
             }
           - { label: Title, name: title, widget: string }
+          - { label: "Content", name: "body", widget: "markdown" }      
           - {
               label: Events,
               name: events,
