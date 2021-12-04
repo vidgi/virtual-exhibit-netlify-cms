@@ -10,9 +10,7 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 // eslint-disable-next-line
 export const EventsPageTemplate = ({
   title,
-  description,
-  main,
-  pricing,
+  events,
 }) => (
   <div className="content">
     
@@ -24,7 +22,7 @@ export const EventsPageTemplate = ({
               <h2 className="has-text-weight-semibold is-size-3">
                 {title}
               </h2>
-              <Events data={pricing.plans} />
+              <Events data={events.events} />
             </div>
           </div>
         </div>
@@ -34,26 +32,9 @@ export const EventsPageTemplate = ({
 );
 
 EventsPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  }),
-  testimonials: PropTypes.array,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
+  events: PropTypes.shape({
+    events: PropTypes.array,
   }),
 };
 
@@ -64,9 +45,7 @@ const EventsPage = ({ data }) => {
     <Layout>
       <EventsPageTemplate
         title={frontmatter.title}
-        description={frontmatter.description}
-        main={frontmatter.main}
-        pricing={frontmatter.pricing}
+        events={frontmatter.events}
       />
     </Layout>
   );
@@ -87,46 +66,11 @@ export const eventsPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        description
-        main {
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
+        events {
+          events {
+            title
+            subtitle
+            dates
             location
             link
           }

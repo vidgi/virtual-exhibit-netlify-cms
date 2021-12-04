@@ -15,23 +15,23 @@ const allParams = {
 const Events = ({ data }) => (
   <div className="columns">
     {data.map((price) => (
-      <div key={price.plan} className="column">
+      <div key={price.subtitle} className="column">
         <section className="section">
         <div style={{ position: "relative", width: 250, height: 300 }}>
         <Canvas dpr={[1,2]}>
           <ambientLight />
            <pointLight position={[10, 10, 10]} />
             <Suspense fallback={null}>
-             <Scene3 params = {allParams[price.plan]}/>
+             <Scene3 params = {allParams[price.subtitle]}/>
             </Suspense>
         </Canvas>
         </div>
           <h4 className="is-size-4 has-text-right	has-text-weight-semibold">
-            {price.plan}
+            {price.subtitle}
           </h4>     
-          <p className="has-text-right has-text-weight-normal">{price.description}</p>
+          <p className="has-text-right has-text-weight-normal">{price.title}</p>
           <ul>
-            {price.items.map((item) => (
+            {price.dates.map((item) => (
               <li key={item} className="is-size-8 has-text-weight-normal">
                 {item}
               </li>
@@ -53,11 +53,11 @@ const Events = ({ data }) => (
 Events.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
-      plan: PropTypes.string,
+      title: PropTypes.string,
+      subtitle: PropTypes.string,
+      dates: PropTypes.array,
       location: PropTypes.string,
       link: PropTypes.string,
-      description: PropTypes.string,
-      items: PropTypes.array,
     })
   ),
 }
