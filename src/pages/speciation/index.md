@@ -17,13 +17,13 @@ link2link: https://www.instagram.com/mfb.ai/
 
 <table width="100%" border="0" cellspacing="10">
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_01.png" alt="" align="left" /></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_01.png" alt="" align="left" /></td>
   </tr>
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_02.png" alt="" align="center" /></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_02.png" alt="" align="center" /></td>
   </tr>
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_03.png" alt="" align="right"/></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_03.png" alt="" align="right"/></td>
   </tr>
    <tr>    
   <td><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
@@ -38,13 +38,13 @@ link2link: https://www.instagram.com/mfb.ai/
 
 <table width="100%" border="0" cellspacing="10">
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png" alt="" align="left" /></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png" alt="" align="left" /></td>
   </tr>
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png" alt="" align="center" /></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png" alt="" align="center" /></td>
   </tr>
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png" alt="" align="right"/></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png" alt="" align="right"/></td>
   </tr>
    <tr>    
   <td><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
@@ -57,13 +57,13 @@ link2link: https://www.instagram.com/mfb.ai/
 
 <table width="100%" border="0" cellspacing="10">
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png" alt="" align="left" /></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png" alt="" align="left" /></td>
   </tr>
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png" alt="" align="center" /></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png" alt="" align="center" /></td>
   </tr>
   <tr>    
-  <td><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png" alt="" align="right"/></td>
+  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png" alt="" align="right"/></td>
   </tr>
    <tr>    
   <td><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
