@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { EventsPageTemplate } from '../../templates/events-page'
 
-const EventsPagePreview = ({ entry, getAsset }) => {
+const EventsPagePreview = ({ entry, widgetFor }) => {
   const entryPricingPlans = entry.getIn(['data', 'events', 'events'])
   const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
 
@@ -21,7 +21,6 @@ EventsPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
-  getAsset: PropTypes.func,
   widgetFor: PropTypes.func,
 }
 
