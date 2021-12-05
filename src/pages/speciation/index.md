@@ -13,60 +13,20 @@ link2title: Instagram
 link2link: https://www.instagram.com/mfb.ai/
 
 ---
-#### Organism_01
+#### 3D/AR Viewer
 
 <table width="100%" border="0" cellspacing="10">
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_01.png" alt="" align="left" /></td>
-  </tr>
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_02.png" alt="" align="center" /></td>
-  </tr>
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_01_03.png" alt="" align="right"/></td>
-  </tr>
-   <tr>    
-  <td><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
+<tr>
+  <td style="padding: 0px 10vw 0px 10vw;"><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
 <iframe id="28772434-a932-4e89-a1a5-3215bb412a2a" src="https://www.vectary.com/viewer/v1/?model=28772434-a932-4e89-a1a5-3215bb412a2a&env=studio3"style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe>
 </div></td>
   </tr>
-</table>
-<br>
-
-
-#### Organism_02
-
-<table width="100%" border="0" cellspacing="10">
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png" alt="" align="left" /></td>
-  </tr>
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png" alt="" align="center" /></td>
-  </tr>
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png" alt="" align="right"/></td>
-  </tr>
    <tr>    
-  <td><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
+  <td style="padding: 0px 10vw 0px 10vw;"><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
 <iframe id="5c7272e8-80b2-419b-8c21-6f941cef06d3" src="https://www.vectary.com/viewer/v1/?model=5c7272e8-80b2-419b-8c21-6f941cef06d3&env=studio3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe></div></td>
   </tr>
-</table>
-<br>
-
-#### Organism_03
-
-<table width="100%" border="0" cellspacing="10">
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png" alt="" align="left" /></td>
-  </tr>
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png" alt="" align="center" /></td>
-  </tr>
-  <tr>    
-  <td style="padding: 0px 10vw 0px 10vw;"><img src="https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png" alt="" align="right"/></td>
-  </tr>
    <tr>    
-  <td><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
+  <td style="padding: 0px 10vw 0px 10vw;"><div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
 <iframe id="8bbe0b0f-03e3-41f8-b60f-49674126cf4d" src="https://www.vectary.com/viewer/v1/?model=8bbe0b0f-03e3-41f8-b60f-49674126cf4d&env=studio3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe>
 </div></td>
   </tr>
@@ -74,8 +34,13 @@ link2link: https://www.instagram.com/mfb.ai/
 <br>
 
 #### Visualization of Generative Procedure
-
+<table width="100%" border="0" cellspacing="10">
+<tr>
+<td style="padding: 0px 10vw 0px 10vw;">
 <div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
  <iframe src="https://openprocessing.org/sketch/1333004/embed/" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 6px;" frameborder="0""></iframe>
 </div>
 <br>
+</td>
+</tr>
+</table>

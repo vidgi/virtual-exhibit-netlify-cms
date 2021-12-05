@@ -6,10 +6,77 @@ import Content, { HTMLContent } from "../components/Content";
 // import "@google/model-viewer/dist/model-viewer";
 import { Link } from "gatsby";
 import Sidebar from '../components/Sidebar'
+import Gallery from 'react-grid-gallery';
 
 // eslint-disable-next-line
 export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent  }) => {
   const PageContent = contentComponent || Content;
+  const data = [
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_01_01.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_01_01.png",
+      caption: "Render of Organism_01",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_01_02.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_01_02.png",
+      caption: "Render of Organism_01",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_01_03.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_01_03.png",
+      caption: "Render of Organism_01",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_02_01.png",
+      caption: "Render of Organism_02",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_02_02.png",
+      caption: "Render of Organism_02",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_02_03.png",
+      caption: "Render of Organism_02",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_01.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_03_01.png",
+      caption: "Render of Organism_03",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_01.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_03_02.png",
+      caption: "Render of Organism_03",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_01.png",
+      thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_03_03.png",
+      caption: "Render of Organism_03",
+      width: 4,
+      height: 3
+    }
+  ]
+
 
   return (
     <section className="section section--gradient">
@@ -27,51 +94,23 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
                 {artist}
               </h3>
 
-              <PageContent className="content" content={content} />
+<div className = "content">
+              <div style={{
+                    justify: "center",
+                    display: "block",
+                    minHeight: "1px",
+                    width: "100%",
+                    overflow: "auto"}}>
+                <Gallery
+            images={data}
+            enableLightbox={true}
+            enableImageSelection={false}
+            rowHeight={330}
+            margin={10}/>
+                </div>
+</div>
 
-{/* 
-      <div id="card">
-      {(typeof window !== 'undefined') ? (
-          <model-viewer
-          src="/speciation-models/Model_01.glb"
-          ios-src=""
-          alt="Model 1"
-          shadow-intensity="1"
-          camera-controls
-          auto-rotate
-          ar
-        ></model-viewer>
-      ) : null}
-     
-    </div>
-    <div id="card">
-      {(typeof window !== 'undefined') ? (
-          <model-viewer
-          src="/speciation-models/Model_02.glb"
-          ios-src=""
-          alt="Model 2"
-          shadow-intensity="1"
-          camera-controls
-          auto-rotate
-          ar
-        ></model-viewer>
-      ) : null}
-     
-    </div>
-    <div id="card">
-      {(typeof window !== 'undefined') ? (
-          <model-viewer
-          src="/speciation-models/Model_03.glb"
-          ios-src=""
-          alt="Model 3"
-          shadow-intensity="1"
-          camera-controls
-          auto-rotate
-          ar
-        ></model-viewer>
-      ) : null}
-     
-    </div> */}
+              <PageContent className="content" content={content} />
 
     <h2 className="title is-size-4 has-text-weight-semibold">
                 artist statement
