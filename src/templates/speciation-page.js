@@ -62,14 +62,14 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
       height: 3
     },
     {
-      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_01.png",
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_02.png",
       thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_03_02.png",
       caption: "Render of Organism_03",
       width: 4,
       height: 3
     },
     {
-      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_01.png",
+      src: "https://vidgi.github.io/antechamber/renders/IA_Render_03_03.png",
       thumbnail: "https://vidgi.github.io/antechamber/renders/IA_Render_03_03.png",
       caption: "Render of Organism_03",
       width: 4,

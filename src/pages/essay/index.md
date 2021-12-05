@@ -26,15 +26,15 @@ The story of Rabbi Loew’s golem ends differently through various interpretatio
 _Sculpted in Our Image, Forged in Our Minds_ explores how we may navigate the erosion between digital and physical spaces. Through simulating digital worlds, generating digital beings, and challenging the deep roots of capitalism in digital technology, the artists in this exhibition offer their collective gazes forward and towards our digital future. We must make it a good one; as O’Neil proclaims, “we can’t afford to do otherwise.”[^11]
 
 
-[^1]: Howard Markel, “Science Diction: The Origin Of The Word 'Robot'” (transcript, Talk of the Nation, April 22, 2011), National Public Radio, https://www.npr.org/2011/04/22/135634400/science-diction-the-origin-of-the-word-robot. 
+[^1]: Howard Markel, “Science Diction: The Origin Of The Word 'Robot'” (transcript, _Talk of the Nation_, April 22, 2011), _National Public Radio_, https://www.npr.org/2011/04/22/135634400/science-diction-the-origin-of-the-word-robot. 
 
 [^2]: Sarah Boo, Artist Statement, 2021, https://sarahboo.online/zoomprincess/. 
 
-[^3]: Rachel Schraer & Kayleen Devlin, “Climate change: Facebook fails to flag denial, study finds”, BBC News, November 4, 2021, https://www.bbc.com/news/59147659. 
+[^3]: Rachel Schraer & Kayleen Devlin, “Climate change: Facebook fails to flag denial, study finds”, _BBC News_, November 4, 2021, https://www.bbc.com/news/59147659. 
 
-[^4]: Jeb Su, “Confirmed: Google Terminated Project Dragonfly, Its Censored Chinese Search Engine”, Forbes, July 19, 2020, https://www.forbes.com/sites/jeanbaptiste/2019/07/19/confirmed-google-terminated-project-dragonfly-its-censored-chinese-search-engine/?sh=32f1ce617e84. 
+[^4]: Jeb Su, “Confirmed: Google Terminated Project Dragonfly, Its Censored Chinese Search Engine”, _Forbes_, July 19, 2020, https://www.forbes.com/sites/jeanbaptiste/2019/07/19/confirmed-google-terminated-project-dragonfly-its-censored-chinese-search-engine/?sh=32f1ce617e84. 
 
-[^5]: Alexandra Stevenson, “Facebook Admits It Was Used to Incite Violence in Myanmar”, New York Times, November 6, 2018, https://www.nytimes.com/2018/11/06/technology/myanmar-facebook.html. 
+[^5]: Alexandra Stevenson, “Facebook Admits It Was Used to Incite Violence in Myanmar”, _New York Times_, November 6, 2018, https://www.nytimes.com/2018/11/06/technology/myanmar-facebook.html. 
 
 [^6]: Mads Brimble, Artist Statement, 2020, https://www.madbrimble.com/projects/speciation. 
 
@@ -42,8 +42,8 @@ _Sculpted in Our Image, Forged in Our Minds_ explores how we may navigate the er
 
 [^8]: Andy Wallace, Conversation with artist, 2021.
 
-[^9]: Dan Bilefsky, "Hard Times Give New Life to Prague's Golem", New York Times, May 10, 2009.
+[^9]: Dan Bilefsky, "Hard Times Give New Life to Prague's Golem", _New York Times_, May 10, 2009.
 
-[^10]: Cathy O’Neil, Weapons of Math Destruction (New York: Broadway Books, 2016), 231.
+[^10]: Cathy O’Neil, _Weapons of Math Destruction_ (New York: Broadway Books, 2016), 231.
 
-[^11]: Ibid.
+[^11]: _Ibid_.
