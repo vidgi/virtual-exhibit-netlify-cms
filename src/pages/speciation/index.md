@@ -36,8 +36,8 @@ link2link: https://www.instagram.com/mfb.ai/
 #### Visualization of Generative Procedure
 <table width="100%" border="0" cellspacing="10">
 <tr>
-<td style="padding: 0px 10vw 0px 10vw;">
-<div style="padding:56.25% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
+<td style="padding: 0px 0vw 0px 0vw;">
+<div style="padding:100% 0 0 0;position:relative;background-color: rgb(104,97,213);background: linear-gradient(0deg, rgba(104,97,213,1) 1%, rgba(175,242,255,1) 100%);border-radius: 6px;">
  <iframe src="https://openprocessing.org/sketch/1333004/embed/" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 6px;" frameborder="0""></iframe>
 </div>
 <br>
