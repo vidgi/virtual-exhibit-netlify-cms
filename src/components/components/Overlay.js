@@ -23,6 +23,12 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         }}
         className="scroll">
 
+        <div className="exhibitiontitle">
+         < h2 className="title is-size-3 has-text-weight-semibold">
+                Exhibition
+              </h2>
+         </div>    
+
         <div className="slide" style={{width: "45vw"}} id="zoom-princess">
             <Link className="exhibit-item" to="/zoom-princess">
                 Zoom Princess →

@@ -17,12 +17,11 @@ export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => 
       <div className="container hide-scrollbar">
         <div className="columns">
           <div className="column" style={{height: "75vh"}}>
-<div className="exhibitiontitle">
+{/* <div className="exhibitiontitle">
          < h2 className="title is-size-3 has-text-weight-semibold">
                 {title}
               </h2>
-              {/* <div className="column" style={{width: 500, height: '100%'}}> */}
-         </div>    
+         </div>     */}
 <App />
 </div>
         </div>
