@@ -6,6 +6,7 @@
   "engines": {
     "node": ">=14.15.0"
  },
+ "engineStrict" : true,
   "dependencies": {
     "@react-three/drei": "^7.22.9",
     "@react-three/fiber": "^7.0.21",
