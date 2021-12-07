@@ -37,9 +37,8 @@
     /* height: 100vh; */
     /* width: 200vw; */
     padding-top: 20vh;
-    padding-left: 15vw;
-    padding-right: 10vw;
-
+    padding-left: 0vw;
+    padding-right: 20vw;
     padding-bottom: 10vh;
     visibility: visible;
 
