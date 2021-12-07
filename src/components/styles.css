@@ -1,5 +1,15 @@
 /* Styles.css - Mobile first */
+.hide-scrollbar {
+    /*FireFox*/
+    scrollbar-width: none;
+    /*IE10+*/
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 
+.hide-scrollbar::-webkit-scrollbar {
+    /*Chrome, Safari, Edge*/
+    display: none;
+}
 
 .scroll {
     width: 100%;

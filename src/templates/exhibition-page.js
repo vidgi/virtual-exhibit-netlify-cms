@@ -14,7 +14,7 @@ export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => 
    
     <section className="section section--gradient">
       
-      <div className="container">
+      <div className="container hide-scrollbar">
         <div className="columns">
           <div className="column" style={{height: "75vh"}}>
 <div className="exhibitiontitle">

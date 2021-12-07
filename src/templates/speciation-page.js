@@ -105,7 +105,7 @@ export const SpeciationPageTemplate = ({ title, artist, statement, bio, link1tit
             images={data}
             enableLightbox={true}
             enableImageSelection={false}
-            rowHeight={330}
+            rowHeight={275}
             margin={10}/>
                 </div>
 </div>

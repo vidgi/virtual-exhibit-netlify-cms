@@ -6,6 +6,7 @@ import Content, { HTMLContent } from "../components/Content";
 import { Link } from "gatsby";
 import Gallery from 'react-grid-gallery';
 import Sidebar from '../components/Sidebar'
+// import { TwitchEmbed, TwitchChat } from 'react-twitch-embed';
 
 
 // eslint-disable-next-line
@@ -15,7 +16,8 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
   const [data,setData]=useState([]);
   const getData=()=>{
     // https://arcadia-img.s3.amazonaws.com/photo-index.json
-    fetch('photo-index.json')
+    // photo-index.json
+    fetch('https://arcadia-img.s3.amazonaws.com/photo-index-ia-current.json')
       .then(function(response){
         // console.log(response)
         return response.json();
@@ -61,6 +63,28 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
                 {artist}
               </h3>
               <PageContent className="content" content={content} />
+
+
+{/*               
+
+{(typeof window !== 'undefined') ? (
+          <div style={{
+            justify: "center",
+            display: "block",
+            minHeight: "1px",
+            width: "100%",
+            overflow: "auto"}}>
+          <TwitchEmbed
+            channel="arcadia_inc"
+            id="arcadia_inc"
+            theme="dark"
+            muted
+            onVideoPause={() => console.log(':(')}
+          />
+          <TwitchChat channel="arcadia_inc" theme="dark" />
+        </div>
+      ) : null} */}
+
 
               <div>
               <div style={{
@@ -111,8 +135,9 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
               </div>
 
               <div className = "content"> 
-              Composer: 
+              Soundtrack: <Link  to="https://soundcloud.com/nworb279308981/">
               Emma Brown
+              </Link>
               </div>
 
              
