@@ -26,6 +26,7 @@ link2link: https://www.instagram.com/cezarmocan/
 <script type="text/javascript">
   new Twitch.Embed("twitch-embed", {
     width: '100%',
+    height: 400,
     channel: "arcadia_inc",
     layout: "video",
     // Only needed if this page is going to be embedded on other websites
