@@ -17,14 +17,18 @@ link2link: https://www.instagram.com/cezarmocan/
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/634060678?h=1f19212d8b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 6px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+<br>
+<br>
+
+<div style="padding:56.25% 0 0 0;position:relative;">
 <div id="twitch-embed"></div>
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 <script type="text/javascript">
   new Twitch.Embed("twitch-embed", {
-    width: 854,
-    height: 480,
-    channel: "monstercat",
+    width: 100%,
+    channel: "arcadia_inc",
     // Only needed if this page is going to be embedded on other websites
     parent: ["embed.example.com", "othersite.example.com"]
   });
 </script>
+</div>
