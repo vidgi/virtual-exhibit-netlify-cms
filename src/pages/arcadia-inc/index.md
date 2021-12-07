@@ -20,7 +20,7 @@ link2link: https://www.instagram.com/cezarmocan/
 <br>
 
 <center>
-<div style="padding:56.25% 0 0 0;position:relative;">
+<!-- <div style="padding:56.25% 0 0 0;position:relative;"> -->
 <div id="twitch-embed"></div>
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 <script type="text/javascript">
@@ -33,5 +33,5 @@ link2link: https://www.instagram.com/cezarmocan/
     // parent: ["embed.example.com", "sculptedandforged.netlify.app"]
   });
 </script>
-</div>
+<!-- </div> -->
 </center>
