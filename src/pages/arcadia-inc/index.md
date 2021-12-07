@@ -20,16 +20,16 @@ link2link: https://www.instagram.com/cezarmocan/
 <br>
 
 <center>
-<div id="twitch-embed"></div>
+<div style="padding:65.25% 0 0 0;position:relative;" id="twitch-embed"></div>
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 <script type="text/javascript">
   new Twitch.Embed("twitch-embed", {
-    width: 854,
-    height: 480,
+    width: '100%',
+    height: '100%',
     channel: "arcadia_inc",
     layout: "video",
     // Only needed if this page is going to be embedded on other websites
-    parent: ["embed.example.com", "sculptedandforged.netlify.app"]
+    // parent: ["embed.example.com", "sculptedandforged.netlify.app"]
   });
 </script>
 </center>
