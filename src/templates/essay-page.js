@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { Helmet } from 'react-helmet'
 
 // eslint-disable-next-line
 export const EssayPageTemplate = ({ title, content, contentComponent }) => {
@@ -10,6 +11,7 @@ export const EssayPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <div class="essay-bg-img">
+    <Helmet title= "Exhibition Essay | Sculpted in Our Image, Forged in Our Minds"/>
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">

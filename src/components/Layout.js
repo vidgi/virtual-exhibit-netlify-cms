@@ -8,12 +8,12 @@ import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
+
   return (
     <div>
       <Helmet>
-        
         <html lang="en" />
-        <title>{title}</title>
+        {/* <title>{title}</title> */}
         <meta name="description" content={description} />
         <link href="https://fonts.googleapis.com/css?family=Epilogue:200,400,600,800" rel="stylesheet"/>
         <link

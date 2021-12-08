@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import App from '../components/App'
+import { Helmet } from 'react-helmet'
 
 // eslint-disable-next-line
 export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => {
@@ -12,7 +13,7 @@ export const ExhibitionPageTemplate = ({ title, content, contentComponent }) => 
   return (
    
     <section className="section section--gradient">
-      
+      <Helmet title= "Exhibition | Sculpted in Our Image, Forged in Our Minds"/>      
       <div className="container hide-scrollbar">
         <div className="columns">
           <div className="column" style={{height: "90vh"}}>

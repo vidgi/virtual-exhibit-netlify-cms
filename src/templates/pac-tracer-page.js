@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "gatsby";
 import Sidebar from '../components/Sidebar'
+import { Helmet } from 'react-helmet'
 
 // eslint-disable-next-line
 export const PacTracerPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent }) => {
@@ -12,6 +13,7 @@ export const PacTracerPageTemplate = ({ title, artist, statement, bio, link1titl
 
   return (
     <section className="section section--gradient">
+      <Helmet title= "Pac Tracer | Sculpted in Our Image, Forged in Our Minds"/>
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">

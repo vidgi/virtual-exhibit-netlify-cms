@@ -3,14 +3,16 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { Helmet } from 'react-helmet'
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <div class="bg-img">
 
+    <div class="bg-img">
+    <Helmet title= "About | Sculpted in Our Image, Forged in Our Minds"/>
     <section className="section section--gradient">
        {/* <img class="img-responsive" src={meshimage}/> */}
       <div className="container">

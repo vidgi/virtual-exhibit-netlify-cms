@@ -9,6 +9,7 @@ import Layout from "../components/Layout";
 import Scene from "../components/Scene";
 import Scene2 from "../components/Scene2";
 import { Link } from "gatsby";
+import { Helmet } from 'react-helmet'
 
 export const IndexPageTemplate = ({
   title,
@@ -17,6 +18,7 @@ export const IndexPageTemplate = ({
   description2,
 }) => (
   <div>
+    <Helmet title= "Sculpted in Our Image, Forged in Our Minds"/>
     <div style={{ position: "relative", height: 250 }} className="full-width-image margin-top-0">
    <Canvas dpr={[1, 2]}>
     <ambientLight />

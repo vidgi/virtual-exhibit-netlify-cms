@@ -6,6 +6,7 @@ import Content, { HTMLContent } from "../components/Content";
 import { Link } from "gatsby";
 import Gallery from 'react-grid-gallery';
 import Sidebar from '../components/Sidebar'
+import { Helmet } from 'react-helmet'
 
 // eslint-disable-next-line
 export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1title, link1link, link2title, link2link, content, contentComponent }) => {
@@ -43,6 +44,7 @@ export const ArcadiaIncPageTemplate = ({ title, artist, statement, bio, link1tit
 
   return (
     <section className="section section--gradient">
+      <Helmet title= "Arcadia Inc. | Sculpted in Our Image, Forged in Our Minds"/>
       <div className="container">
         <div className="columns">
         <div className="column is-one-quarter">
