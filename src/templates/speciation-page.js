@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-// import "@google/model-viewer/dist/model-viewer";
 import { Link } from "gatsby";
 import Sidebar from '../components/Sidebar'
 import Gallery from 'react-grid-gallery';

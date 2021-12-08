@@ -8,16 +8,11 @@ import './styles.css';
 import Loader from "./components/Loader";
 import RotationWrapper from "./components/RotationWrapper";
 import Overlay from "./components/Overlay";
-// import GroundPlane from "./components/GroundPlane";
-
-// import useWindowDimensions from "./hooks/useWindowDimensions";
 
 function App() {
   const overlay = useRef();
   const caption = useRef();
   const scroll = useRef(0);
-
-  // const { height, width } = useWindowDimensions();
 
   
   return (

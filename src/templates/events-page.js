@@ -3,10 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
 import Events from "../components/Events";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 // eslint-disable-next-line
 export const EventsPageTemplate = ({ title, events, content, contentComponent }) => {
