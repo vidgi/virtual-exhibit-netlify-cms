@@ -1,17 +1,35 @@
 ---
-templateKey: speciation-page
+link1title: Website
+link2title: Instagram
 path: /speciation
+templateKey: speciation-page
 title: Speciation
 artist: Mads Brimble
-statement: >
-    Speciation is the physical embodiment of a series of silicon-based organisms derived from a genetic algorithm. The algorithm provides the structure for an alternate world which is void of norms which restrict the growth and futurity of queerness, and instead creates an ever-diversifying population via ‘unnatural’ selection. Typically, genetic algorithms are meant to reflect the process of evolution through natural selection, a framework which does not hold space for relationships that exist outside of cis-heteronormative structures. This algorithm, in contrast, was created with the intention of exploring an alternative theory of life and being as it directly relates to queer theory. A whimsical selection takes place; the organisms have a vast and changing family unit comprised of three parents, each contributing its genetic information to the child organism. Even still, within each organism exists the possibility of rejecting its parental DNA and instead producing randomly. The coded aspect of the piece is meant to counter the normative ideas that surround the evolution of a species, and give way to a magical alterity.
+statement: Speciation is the digital embodiment of a series of generated
+  organisms derived from a genetic algorithm. The algorithm provides the
+  structure for an alternate world which is void of norms which restrict the
+  growth and futurity of queerness, and instead creates an ever-diversifying
+  population via ‘unnatural’ selection. Typically, genetic algorithms are meant
+  to reflect the process of evolution through natural selection, a framework
+  which does not hold space for relationships that exist outside of
+  cis-heteronormative structures. This algorithm, in contrast, was created with
+  the intention of exploring an alternative theory of life and being as it
+  directly relates to queer theory. A whimsical selection takes place; the
+  organisms have a vast and changing family unit comprised of three parents,
+  each contributing its genetic information to the child organism. Even still,
+  within each organism exists the possibility of rejecting its parental DNA and
+  instead producing randomly. The coded aspect of the piece is meant to counter
+  the normative ideas that surround the evolution of a species, and give way to
+  a magical alterity.
 bio: >
-  MADS BRIMBLE is a practicing new media artist and designer located in Toronto, Canada. Using genetic algorithms to create a kind of ‘unnatural’ selection, her work challenges the heteronormative ideas that surround life and being, giving way to a magical alterity. She uses these digital outputs as blueprints for her laser cut acrylic sculptures, embodying fully formed entities with a tangible past and evolving future.
-link1title: Website
+  MADS BRIMBLE is a practicing new media artist and designer located in Toronto,
+  Canada. Using genetic algorithms to create a kind of ‘unnatural’ selection,
+  her work challenges the heteronormative ideas that surround life and being,
+  giving way to a magical alterity. She uses these digital outputs as blueprints
+  for her laser cut acrylic sculptures, embodying fully formed entities with a
+  tangible past and evolving future.
 link1link: https://www.madbrimble.com/
-link2title: Instagram
 link2link: https://www.instagram.com/mfb.ai/
-
 ---
 #### 3D/AR Viewer
 
