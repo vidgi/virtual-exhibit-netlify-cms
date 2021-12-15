@@ -17,7 +17,9 @@ events:
     - title: Sculpted in Our Image, Forged in Our Minds
       subtitle: Curator Talk
       dates:
-        - Thursday, January 13, 2022 | 7—8 PM (EST)
+        - Wednesday
+        - January 19
+        - 2022 | 7—8 PM (EST)
       location: Online via Zoom
       link: https://interaccess.org/exhibition/sculpted-our-image-forged-our-minds
     - title: Primordial Dismemberment, Sadovnik (2021)
