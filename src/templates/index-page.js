@@ -37,13 +37,17 @@ export const IndexPageTemplate = ({
             </div>
            <div className="column is-third is-offset-1">
              <br></br>
-             <p className="has-text-weight-light">{description1}</p>
-             <br></br>
-             <p className="has-text-weight-light">{description2}</p>
+             <div className = "is-size-3 content has-text-weight-normal"> 
+             This exhibition has closed, however, other events and exhibitions are available and upcoming at InterAccess. 
+             </div>
              <br></br>
              <div className = "is-size-4 content has-text-weight-normal"> 
-              <Link to="/exhibition">
-              ENTER EXHIBIT→
+             <Link to="https://interaccess.org/">
+               INTERACCESS→
+              </Link>
+              <br></br>
+              <Link to="https://interaccess.org/exhibition/sculpted-our-image-forged-our-minds">
+               EXHIBIT INFORMATION→
               </Link>
           </div>
            </div>
