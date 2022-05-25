@@ -17,7 +17,7 @@ const Events = ({ data }) => (
     {data.map((price) => (
       <div key={price.subtitle} className="column">
         <section className="section">
-        <div style={{ position: "relative", width: 250, height: 300 }}>
+        {/* <div style={{ position: "relative", width: 250, height: 300 }}>
         <Canvas dpr={[1,2]}>
           <ambientLight />
            <pointLight position={[10, 10, 10]} />
@@ -25,7 +25,7 @@ const Events = ({ data }) => (
              <Scene3 params = {allParams[price.subtitle]}/>
             </Suspense>
         </Canvas>
-        </div>
+        </div> */}
           <h4 className="is-size-4 has-text-right	has-text-weight-semibold">
             {price.subtitle}
           </h4>     

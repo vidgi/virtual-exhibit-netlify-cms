@@ -57,7 +57,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
              <img src={work3} />
             </Link>
         </div>
-        <div className="slide" style={{width: "45vw"}} id="arcadia-inc">
+        {/* <div className="slide" style={{width: "45vw"}} id="arcadia-inc">
             <Link className="exhibit-item" to="/arcadia-inc">
               Arcadia Inc. →
               <small><small>Cezar Mocan</small></small>
@@ -72,7 +72,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
               <br></br>
              <img src={work5} />
             </Link>
-        </div>
+        </div> */}
 
           
   

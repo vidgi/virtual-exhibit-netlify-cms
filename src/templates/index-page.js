@@ -24,10 +24,9 @@ export const IndexPageTemplate = ({
     <ambientLight />
     <pointLight position={[10, 10, 10]} />
     <Suspense fallback={null}>
-              <Scene position={[0, 0, 0]}/>
-          
-           </Suspense>
-      </Canvas >
+    <Scene position={[0, 0, 0]}/>
+    </Suspense>
+    </Canvas >
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -55,16 +54,13 @@ export const IndexPageTemplate = ({
     </section>
 
     <div style={{ position: "relative", height: 250 }} className="full-width-image margin-top-0">
-   <Canvas dpr={[1, 2]}>
-    <ambientLight />
-    <pointLight position={[10, 10, 10]} />
-    <Suspense fallback={null}>
-              <Scene2 position={[0, 0, 0]}/>
-              
-                  {/* <Box position={[0, 0, 0]} /> */}
-
-           </Suspense>
-      </Canvas>
+    <Canvas dpr={[1, 2]}>
+      <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+      <Suspense fallback={null}>
+        <Scene2 position={[0, 0, 0]}/>
+      </Suspense>
+    </Canvas>
     </div>
   </div>
 );

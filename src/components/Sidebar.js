@@ -27,14 +27,14 @@ export default function Sidebar(props) {
               Antechamber
               <small><small>Benjamin Chang</small></small>
               </Link>
-              <Link className="sidebar-item" to="/arcadia-inc">
+              {/* <Link className="sidebar-item" to="/arcadia-inc">
               Arcadia Inc.
               <small><small>Cezar Mocan</small></small>
               </Link>
               <Link className="sidebar-item" to="/pac-tracer">
               Pac Tracer
               <small><small>Andy Wallace</small></small>
-              </Link>
+              </Link> */}
             
         </div>
     )
